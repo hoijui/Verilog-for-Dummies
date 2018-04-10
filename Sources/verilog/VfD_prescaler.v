@@ -6,8 +6,8 @@ module VfD_prescaler (
 );
 
     // annotate frequencies for clocks
-    parameter       f_clkin = 12_000_000;   // [MHz]
-    parameter       f_clkout = 2;           // [MHz]
+    parameter       f_clkin = 12_000_000;   // [Hz]
+    parameter       f_clkout = 2;           // [Hz]
 
 //  ------------    divider     ------------
 
@@ -30,7 +30,7 @@ end
 
 //  ------------    toggle FF   ------------
 
-    reg             r_toggle = ~0;
+    reg             r_toggle = ~0;  // start with non-active edge
 
 always @ (posedge clk)
 begin
