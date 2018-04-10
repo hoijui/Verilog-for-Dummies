@@ -12,6 +12,9 @@ git clone https://github.com/chipforge/Verilog-for-Dummies.git
 ```
 
 3.  Please go to the Scripts/bash directory, read and run the install.sh script
+```
+more Scripts/bash/install.sh; sudo bash Scripts/bash/install.sh
+```
 
 4.  Do you have already installed a text editor? Really? I mean _vim_ or _emacs_. We do not talk about _notepad++_, _nedit_ or something for web hipsters with mouse support only
    *  BTW, in the Scripts/vim directory you might find a minimalistic and useful vim configuration; move _vimrc_ to _~/.vimrc_ before usage.
