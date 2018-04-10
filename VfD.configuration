@@ -1,0 +1,13 @@
+#       main definitions
+
+PROJECT =               VfD
+PROJECT_DEFINES =
+
+TARGET =                iCE40HX
+SIZE =                  1k
+PACKAGE =               tq144
+
+TOP =                   iCEstick
+#       test cases
+
+TESTS =                 tc_counter tc_shiftreg

@@ -1,0 +1,17 @@
+    #   --------    LEDs    --------
+
+    set_io          LED_D1      99
+    set_io          LED_D2      98
+    set_io          LED_D3      97
+    set_io          LED_D4      96
+    set_io          LED_D5      95
+
+    #   --------    Infrared    --------
+
+    set_io          IrDA_RXD    106
+    set_io          IrDA_TXD    105
+    set_io          IrDA_SD     107
+
+    #   --------    globals --------
+
+    set_io          ICE_CLK     21
