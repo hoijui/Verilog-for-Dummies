@@ -1,0 +1,7 @@
+set nocompatible noexrc
+set incsearch ignorecase hlsearch
+set autoindent expandtab softtabstop=4 shiftwidth=4
+set ruler number showcmd
+set encoding=utf-8
+set list
+syntax on
